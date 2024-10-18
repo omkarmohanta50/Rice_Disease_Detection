@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 application = app
-MODEL_PATH = 'C:/Users/omkar/Desktop/final deployment/rice diseases detection/model/model.h5'
+MODEL_PATH = '/model/model.h5'
 model = load_model(MODEL_PATH)
 
 UPLOAD_FOLDER = 'static/uploads'
